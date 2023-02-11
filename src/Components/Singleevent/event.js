@@ -444,7 +444,7 @@ const SingleEvent = () => {
                   {Event.Rules?.map(function (element, idx) {
                     return (
                       <p>
-                        {idx}. {element}
+                        {idx+1}. {element}
                       </p>
                     );
                   })}
@@ -471,7 +471,18 @@ const SingleEvent = () => {
                 }}
                 className="s2div"
               >
-                <p className="content-box themes_width">{Event.Themes}</p>
+                  
+                  
+                 <p className="content-box  themes_width">
+                  {Event.Themes?.map(function (element, idx) {
+                    return (
+                      <p>
+                        {idx+1}. {element}
+                      </p>
+                    );
+                  })}
+                </p>
+                  
               </div>
               <div className="single_vis">
                 {Event.Register ? (
