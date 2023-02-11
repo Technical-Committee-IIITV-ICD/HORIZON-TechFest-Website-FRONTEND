@@ -247,10 +247,10 @@ const SingleEvent = () => {
       image: "designing.png",
       mode: "Online",
       details: [
-        "Start Date: Feburary 11, 2023",
-        "End Date: Feburary 13, 2023",
+        "Start Date: Feburary 12, 2023",
+        "End Date: Feburary 19, 2023",
         "Mode of Conduct: Hybrid",
-        "Duration: 3 Days"
+        "Duration: 8 Days"
       ],
       eventtype: "individual",
       Topic: "Designing Event",
@@ -261,7 +261,7 @@ const SingleEvent = () => {
       TeamSize: 1,
       Participants: "0",
       Rules: [
-        "The deadline for the contest will be the 0:00 AM 14th of February and no submissions would be entertained after that. ",
+        "The deadline for the contest will be the 0:00 AM 20th of February and no submissions would be entertained after that. ",
         "Only original artwork will be accepted otherwise the entry gets disqualified.",
         "Only one entry per person will be accepted.",
         "In case of multiple entries, the entry obtaining the maximum points will be considered.",
@@ -272,7 +272,9 @@ const SingleEvent = () => {
         "The best posts will be uploaded on our Instagram, LinkedIn and FB pages."
       ],
       Themes: ["Design the poster of a Music concert of any artist of your choice. You are allowed to use elements/stock images of the singer.", "Design an instagram advertisement for a clothing/fashion company (topwear, bottomwear, footwear, accessories). You can use stock images of any product of your choice."],
-      Register: 1
+      Register: 0,
+      OutLink: 1,
+      Link: "https://forms.gle/UjF4vk2xebQpiCsC6"
     }
   ];
 
