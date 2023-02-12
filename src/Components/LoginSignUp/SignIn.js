@@ -45,6 +45,7 @@ function SignIn({ setLogin, setSignUp, login, headPerin }) {
       setResponse("Invalid credentials");
       setOpen(false);
     }
+    setOpen(false);
   }
 
   return (
@@ -152,6 +153,7 @@ const Wrap = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
+
   overflow: auto;
   position: relative;
   color: white;
