@@ -208,7 +208,7 @@ const SingleEvent = () => {
         "Start Date: Feburary 17, 2023",
         "End Date: Feburary 19, 2023",
         "Mode of Conduct: Hybrid",
-        "Duration: 36 Hours"
+        "Duration: 48 Hours"
       ],
       eventtype: "team",
       Topic: "Development Event",
