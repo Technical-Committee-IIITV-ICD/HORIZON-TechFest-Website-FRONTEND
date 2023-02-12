@@ -220,7 +220,7 @@ const SingleEvent = () => {
       Participants: "0",
       Rules: [
         "A team must contain exactly 4 members.",
-        "For all students outside IIITV-ICD, the hackathon would be conducted on",
+        "For all students, the hackathon would be conducted online only.",
         "No cross-campus teams will be allowed i.e., all members of one team should be students of only 1 institute.",
         "No submissions will be accepted after the deadline of 48 hours.",
         "Reuse of code/templates is allowed, but a link to the source code has to be provided with the submission. In case you are found not providing proper references, it will lead to your disqualification.",
